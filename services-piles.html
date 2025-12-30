@@ -1,0 +1,247 @@
+<!--AUTHOR: GAV-->
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+  <!-- Basic Page Needs
+================================================== -->
+  <meta charset="utf-8">
+  <title>Свайные работы в Красноярске - ООО «БК»</title>
+
+  <!-- Mobile Specific Metas
+================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Буровая компания">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name=author content="Буровая компания">
+  <meta name=generator content="Буровая компания в Красноярске - ООО «БК»">
+
+  <!-- Favicon
+================================================== -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- CSS
+================================================== -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="plugins/fontawesome/css/all.min.css">
+  <!-- Animation -->
+  <link rel="stylesheet" href="plugins/animate-css/animate.css">
+  <!-- slick Carousel -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <!-- Colorbox -->
+  <link rel="stylesheet" href="plugins/colorbox/colorbox.css">
+  <!-- Template styles-->
+  <link rel="stylesheet" href="css/style.css">
+
+  <script>
+    function includeHTML() {
+      var z, i, elmnt, file, xhttp;
+      /* Проходим по всем HTML элементам: */
+      z = document.getElementsByTagName("*");
+      for (i = 0; i < z.length; i++) {
+        elmnt = z[i];
+        /* ищем элементы с определенным атрибутом: */
+        file = elmnt.getAttribute("include-html");
+        if (file) {
+          /* Делаем HTTP запрос, используя значение атрибута в качестве имени файла: */
+          xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+            if (this.readyState == 4) {
+              if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+              if (this.status == 404) {elmnt.innerHTML = "Страница не найдена.";}
+              /* Удаляем атрибут и вызываем функцию еще раз: */
+              elmnt.removeAttribute("include-html");
+              includeHTML();
+            }
+          }
+          xhttp.open("GET", file, true);
+          xhttp.send();
+          /* Выходим из функции: */
+          return;
+        }
+      }
+    }
+    </script>
+
+
+</head>
+<body>
+  <div class="body-inner">
+
+    <div id="top-bar" class="top-bar">
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-8 col-md-8">
+                <ul class="top-info text-center text-md-left">
+                    <li><i class="fas fa-map-marker-alt"></i> <p class="info-text">Красноярск, ул. Пограничников 12М</p>
+                    </li>
+                </ul>
+              </div>
+              <!--/ Top info end -->
+  
+              <div class="col-lg-4 col-md-4 top-social text-center text-md-right">
+                <ul class="list-unstyled">
+                    <li>
+                      <a title="Youtube" href="https://www.youtube.com/@bk24.channel" target="_blank">
+                          <span class="social-icon"><i class="fab fa-youtube"></i></span>
+                      </a>
+                      <a title="Linkdin" href="https://www.linkedin.com/company/drilling-company-llc" target="_blank">
+                          <span class="social-icon"><i class="fab fa-linkedin"></i></span>
+                      </a>
+                    </li>
+                </ul>
+              </div>
+              <!--/ Top social end -->
+          </div>
+          <!--/ Content row end -->
+        </div>
+        <!--/ Container end -->
+    </div>
+    <!--/ Topbar end -->
+<!-- Header start -->
+<div include-html="header.html"></div>
+<script>
+  includeHTML();
+</script>
+<!--/ Header end -->
+<div id="banner-area" class="banner-area" style="background-image:url(images/banner/banner1.jpg)">
+  <div class="banner-text">
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+              <div class="banner-heading">
+                <h1 class="banner-title">Свайные работы</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center">
+                      <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+                      <li class="breadcrumb-item"><a href="services.html">Услуги</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Свайные работы</li>
+                    </ol>
+                </nav>
+              </div>
+          </div><!-- Col end -->
+        </div><!-- Row end -->
+    </div><!-- Container end -->
+  </div><!-- Banner text end -->
+</div><!-- Banner area end --> 
+
+<section id="main-container" class="main-container pb-2">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-pl col-md-6 mb-5">
+          <div class="ts-service-box">
+              <div class="ts-service-image-wrapper">
+                <img loading="lazy" class="w-100" src="images/services/services-piles/bored-piles.jpg" alt="service-image">
+              </div>
+              <div class="d-flex">
+                <div class="ts-service-box-img">
+                    <img loading="lazy" src="images/icon-image/service-icon21.png" alt="service-icon" />
+                </div>
+                <div class="ts-service-info">
+                    <h3 class="service-box-title"><a href="piles-bored.html">Буронабивные сваи</a></h3>
+                    <p>Для устройства новых фундаментов зданий в любых типах грунта.</p>
+                    <a class="learn-more d-inline-block" href="piles-bored.html" aria-label="service-details"><i class="fa fa-caret-right"></i> Узнать больше</a>
+                </div>
+              </div>
+          </div><!-- Service1 end -->
+        </div><!-- Col 1 end -->
+
+        <div class="col-pl col-md-6 mb-5">
+          <div class="ts-service-box">
+              <div class="ts-service-image-wrapper">
+                <img loading="lazy" class="w-100" src="images/services/services-piles/drill-injection-piles.jpg" alt="service-image">
+              </div>
+              <div class="d-flex">
+                <div class="ts-service-box-img">
+                    <img loading="lazy" src="images/icon-image/service-icon22.png" alt="service-icon" />
+                </div>
+                <div class="ts-service-info">
+                    <h3 class="service-box-title"><a href="piles-bored-in.html">Буроинъекционные сваи</a></h3>
+                    <p>Для устройства новых фундаментов в зыбких грунтах и реконструкции существующих.</p>
+                    <a class="learn-more d-inline-block" href="piles-bored-in.html" aria-label="service-details"><i class="fa fa-caret-right"></i> Узнать больше</a>
+                </div>
+              </div>
+          </div><!-- Service2 end -->
+        </div><!-- Col 2 end -->
+
+        <div class="col-pl col-md-6 mb-5">
+          <div class="ts-service-box">
+              <div class="ts-service-image-wrapper">
+                <img loading="lazy" class="w-100" src="images/services/services-piles/screw-piles.jpg" alt="service-image">
+              </div>
+              <div class="d-flex">
+                <div class="ts-service-box-img">
+                    <img loading="lazy" src="images/icon-image/service-icon23.png" alt="service-icon" />
+                </div>
+                <div class="ts-service-info">
+                    <h3 class="service-box-title"><a href="piles-screw.html">Винтовые сваи</a></h3>
+                    <p>Для лёгких построек, расположенных на склоне, пучинистых, слабых и обводнённых грунтах.</p>
+                    <a class="learn-more d-inline-block" href="piles-screw.html" aria-label="service-details"><i class="fa fa-caret-right"></i> Узнать больше</a>
+                </div>
+              </div>
+          </div><!-- Service3 end -->
+        </div><!-- Col 3 end -->
+
+       <div class="col-pl col-md-6 mb-5">
+          <div class="ts-service-box">
+              <div class="ts-service-image-wrapper">
+                <img loading="lazy" class="w-100" src="images/services/services-piles/ground-piles.jpg" alt="service-image">
+              </div>
+              <div class="d-flex">
+                <div class="ts-service-box-img">
+                    <img loading="lazy" src="images/icon-image/service-icon24.png" alt="service-icon" />
+                </div>
+                <div class="ts-service-info">
+                    <h3 class="service-box-title"><a href="piles-soil.html">Грунтовые сваи</a></h3>
+                    <p>Для объектов с незначительными нагрузками: под складские площади, временные дороги и т.д.</p>
+                    <a class="learn-more d-inline-block" href="piles-soil.html" aria-label="service-details"><i class="fa fa-caret-right"></i> Узнать больше</a>
+                </div>
+              </div>
+          </div><!-- Service4 end -->
+        </div><!-- Col 4 end -->
+
+    </div><!-- Content row end -->
+  </div><!-- Container end -->
+</section><!-- Main container end -->
+
+<!--/ footer start -->
+<div include-html="footer.html"></div>
+<script>
+  includeHTML();
+</script>
+<!--/ footer end -->
+
+
+  <!-- Javascript Files
+  ================================================== -->
+
+  <!-- initialize jQuery Library -->
+  <script src="plugins/jQuery/jquery.min.js"></script>
+  <!-- Bootstrap jQuery -->
+  <script src="plugins/bootstrap/bootstrap.min.js" defer></script>
+  <!-- Slick Carousel -->
+  <script src="plugins/slick/slick.min.js"></script>
+  <script src="plugins/slick/slick-animation.min.js"></script>
+  <!-- Color box -->
+  <script src="plugins/colorbox/jquery.colorbox.js"></script>
+  <!-- shuffle -->
+  <script src="plugins/shuffle/shuffle.min.js" defer></script>
+
+
+  <!-- Google Map API Key-->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>
+  <!-- Google Map Plugin-->
+  <script src="plugins/google-map/map.js" defer></script>
+
+  <!-- Template custom -->
+  <script src="js/script.js"></script>
+
+  </div><!-- Body inner end -->
+  </body>
+
+  </html>
